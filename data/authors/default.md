@@ -13,4 +13,4 @@ Sorgusu çok, popüler kültürden uzak kalmaya çalışarak minimalist yaşamay
 
 Popüler bilimi yakından takip etmeyi çok severim. Işığın doğası ve evrenin dokusu konularına uzun süreli bir ilgim var. Dolayısıyla felsefik temelli her diyalog benim için çok değerlidir. 
 
-İktisat mezunuyum. Şu an Yönetim Bilişim Sistemleri'nde okuyorum. Yaklaşık 2 sene berber olarak dükkanımızda çalıştım. Bu süreçte yazılımla hobi ilgilendim. Şimdilerde bu ilişki tam tersine döndü. İş hayatımı bilişim sektörüne yoğunlaştırarak web sitesi, sosyal pazarlama konularında freelance olarak çalışıyorum. 
+İktisat mezunuyum. Şu an Yönetim Bilişim Sistemleri'nde okuyorum. Dükkanımızda yaklaşık 2 sene berber olarak çalıştım. Bu süreçte yazılımla hobi olarak ilgilendim. Şimdilerde bu ilişki tam tersine döndü. İş hayatımı bilişim sektörüne yoğunlaştırarak web sitesi, sosyal pazarlama konularında freelance olarak çalışıyorum. 
