@@ -10,7 +10,8 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog) => projeyi kolayca deploy edebilirsiniz.
 
 [Benim sitem](https://orhancansu.vercel.app/)- projenin yayınlanmış hali.
-[Klonladığım Repo](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+
+[Klonlamış Olduğum Repo](https://github.com/timlrx/tailwind-nextjs-starter-blog)
 
 Bu proje [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) kullanılarak yapılmış bir blog sitesidir. Güzel özelliklere sahip olan Next.js markdown blog şablonu olarak tasarlanmıştır. Amacım projeyi geliştirirken projedeki kodları açıklayıcı bloglar ile birlikte kişisel blog hesabımı bu proje üzerinden sürdürmek. Projeyi kullanmak isteyip nasıl yapacağını bilmeyenler iletişime geçmekten çekinmesinler yardımcı olmaktan memnuniyet duyarım.
 
