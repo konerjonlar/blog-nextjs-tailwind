@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Hoşgeldiniz',
   author: 'Orhan Cansu',
-  headerTitle: 'Kişisel Blog',
+  headerTitle: 'Zaman bir illüzyon...',
   description: 'Next.js ve Tailwind.css ile geliştirilmiş blog sitesi',
   language: 'tr-tr',
   theme: 'system', // system, dark or light
