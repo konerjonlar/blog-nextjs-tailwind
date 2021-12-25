@@ -1,20 +1,20 @@
 ---
-title: Sample .md file
-date: '2016-03-08'
-tags: ['markdown', 'code', 'features']
+title: Örnek .md dosyası
+date: '2021-12-26'
+tags: ['markdown', 'kod', 'özellik']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: Kod blokları ve sözdizimi vurgulamalı bir markdown dosyası örneği
 ---
 
-A sample post with markdown.
+Markdown içeren örnek bir gönderi.
 
-## Inline Highlighting
+## Satır İçi Vurgulama
 
-Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
+Satır içi vurgulama örneği `sum = parseInt(num1) + parseInt(num2)`
 
-## Code Blocks
+## Kod bloğu
 
-Some Javascript code
+Örnek javascript kodu
 
 ```javascript
 var num1, num2, sum
@@ -24,14 +24,14 @@ sum = parseInt(num1) + parseInt(num2) // "+" means "add"
 alert('Sum = ' + sum) // "+" means combine into a string
 ```
 
-Some Python code 🐍
+Örnek Python kodu 🐍
 
 ```python
 def fib():
     a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
+    while True:            # Döngü başlancı
+        yield a            # 0'dan başlayarak a'nın değerini döndürür
+        a, b = b, a + b    # a = b ve  b = a +b ile aynı 
 
 for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
