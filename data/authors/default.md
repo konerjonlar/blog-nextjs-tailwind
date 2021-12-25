@@ -1,7 +1,7 @@
 ---
 name: Orhan Cansu
 avatar: /static/images/avatar.png
-occupation: Berber, web geliştiricisi, freelancer 
+occupation: Berber, Web Geliştiricisi, Freelancer 
 company: Ege Üniversitesi, Anadolu Üniversitesi
 email: orhancansu98@gmail.com
 twitter: https://twitter.com/orhancansu15
