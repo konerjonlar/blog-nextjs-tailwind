@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
+name: Orhan Cansu
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Berber, web geliştiricisi, freelancer 
+company: Ege Üniversitesi, Anadolu Üniversitesi
+email: orhancansu98@gmail.com
+twitter: https://twitter.com/orhancansu15
+linkedin: https://www.linkedin.com/in/orhan-cansu
+github: https://github.com/konerjonlar
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Sorgusu çok, popüler kültürden uzak kalmaya çalışarak minimalist yaşamaya özen gösteren, aşırı tüketime ve israfa tamamen karşı olan bir insanım. Son yıllarımı eğitim odaklı geçiriyorum. En büyük motivasyon kaynağım başarı elde etmek. Bu yüzden olduğum insandan farklılaşarak daha sosyal ve paylaşımcı bir insana evriliyorum.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Popüler bilimi yakından takip etmeyi çok severim. Işığın doğası ve evrenin dokusu konularına uzun süreli bir ilgim var. Dolayısıyla felsefik temelli her diyalog benim için çok değerlidir. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+İktisat mezunuyum. Şu an Yönetim Bilişim Sistemleri'nde okuyorum. Yaklaşık 2 sene berber olarak dükkanımızda çalıştım. Bu süreçte yazılımla hobi ilgilendim. Şimdilerde bu ilişki tam tersine döndü. İş hayatımı bilişim sektörüne yoğunlaştırarak web sitesi, sosyal pazarlama konularında freelance olarak çalışıyorum. 
