@@ -1,9 +1,9 @@
 ---
-title: HelloWorld!
+title: Herkese Merhaba...
 date: '2021-12-25'
 tags: ['planlar', 'hakkımda']
 draft: false
-summary: Amaçlarım ve yaptıklarım ile ilgili giriş yazısı.
+summary: Amaçlarım ve isteklerim ile ilgili giriş yazısı.
 ---
 
 ## Başlangıç Mesajı 
