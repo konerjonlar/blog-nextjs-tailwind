@@ -15,3 +15,11 @@
 
 Bu proje [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) kullanılarak yapılmış bir blog sitesidir. Güzel özelliklere sahip olan Next.js markdown blog şablonu olarak tasarlanmıştır. Amacım projeyi geliştirirken projedeki kodları açıklayıcı bloglar ile birlikte kişisel blog hesabımı bu proje üzerinden sürdürmek. Projeyi kullanmak isteyip nasıl yapacağını bilmeyenler iletişime geçmekten çekinmesinler yardımcı olmaktan memnuniyet duyarım.
 
+# Projeyi indirme
+
+- [Use template](https://github.com/konerjonlar/blog-nextjs-tailwind/generate) butonuna tıklayarak kendi github reponuza klonlayın
+- Daha sonra [versel](https://vercel.com/) sitesine giderek Github reponuzu seçip deploy işlemini başlatın.
+- Proje dosyalarındaki yazıları kendinize göre uyarlayarak dosyaları güncelleyin.
+- Siteniz otamatik güncellenecektir. Güle güle kullanın. :)
+
+
