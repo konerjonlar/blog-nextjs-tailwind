@@ -27,15 +27,15 @@ Bu proje [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/
 
 Giscus'ın kullanılabilmesi için 3 şart var:
 
-1 Repo açık(public) olmalı
+1. Repo açık(public) olmalı
   - Settings
     - Danger Zone
       - Change repository visibility
         - [x]Make public
 
-1 Marketplace [Giscus](https://github.com/apps/giscus) indirilmiş olmalı. 
+1. Marketplace [Giscus](https://github.com/apps/giscus) indirilmiş olmalı. 
 
-1 Reponun ayarlarından discuss'ı açık olmalı
+1. Reponun ayarlarından discuss'ı açık olmalı
   - Settings
     - Options
       - Features
