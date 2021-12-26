@@ -23,3 +23,28 @@ Bu proje [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/
 - Siteniz otamatik güncellenecektir. Güle güle kullanın. :)
 
 
+# Giscus ile yorumların oluşturulması
+
+Giscus'ın kullanılabilmesi için 3 şart var:
+
+1 Repo açık(public) olmalı
+  - Settings
+    - Danger Zone
+      - Change repository visibility
+        - [x]Make public
+1 Marketplace [Giscus](https://github.com/apps/giscus) indirilmiş olmalı. 
+1 Reponun ayarlarından discuss'ı açık olmalı
+  - Settings
+    - Options
+      - Features
+        - [x]Discussions
+
+[Şartlar](https://giscus.app/#repository) sağlandıysa eğer .env.example diye bir klasörümüz var. (devamı gelecek)
+
+- NEXT_PUBLIC_GISCUS_REPO= "https://github.com/konerjonlar/blog-nextjs-tailwind"
+- [NEXT_PUBLIC_GISCUS_REPOSITORY_ID](https://stackoverflow.com/questions/13902593/how-does-one-find-out-ones-own-repo-id/13902640)= 441723495
+  - name = "octolytics-dimension-repository_id" olan meta etiketindeki sağeri yazıyoruz.
+- NEXT_PUBLIC_GISCUS_CATEGORY= "Blog Comments"
+- NEXT_PUBLIC_GISCUS_CATEGORY_ID= 65315135
+
+ 
