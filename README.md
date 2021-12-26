@@ -33,9 +33,9 @@ Giscus'ın kullanılabilmesi için 3 şart var:
       - Change repository visibility
         - [x]Make public
 
-1. Marketplace [Giscus](https://github.com/apps/giscus) indirilmiş olmalı. 
+2. Marketplace [Giscus](https://github.com/apps/giscus) indirilmiş olmalı. 
 
-1. Reponun ayarlarından discuss'ı açık olmalı
+3. Reponun ayarlarından discuss'ı açık olmalı
   - Settings
     - Options
       - Features
