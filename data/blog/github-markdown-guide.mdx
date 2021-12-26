@@ -1,101 +1,105 @@
 ---
-title: 'Markdown Guide'
-date: '2019-10-11'
+title: 'Markdown Rehberi'
+date: '2021-12-26'
 tags: ['github', 'guide']
 draft: false
-summary: 'Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.'
+summary: 'Tüm blog ihtiyaçlarınız için Markdown hile sayfası - başlıklar, listeler, resimler, tablolar ve daha fazlası! GitHub Flavored Markdown'a dayalı resimli bir kılavuz.'
 ---
 
-# Introduction
+# Giriş
 
-Markdown and Mdx parsing is supported via `unified`, and other remark and rehype packages. `next-mdx-remote` allows us to parse `.mdx` and `.md` files in a more flexible manner without touching webpack.
 
-GitHub flavored markdown is used. `mdx-prism` provides syntax highlighting capabilities for code blocks. Here's a demo of how everything looks.
+Belirli formatta yazdığımız metinleri html kodlarına çevrilmesinde Markdown ve Mdx araçları kullanılır. Daha tanıdığımız biçimde README.md dosyasının formatıdır. Uzantılar .md ve .mdx şeklinde olur. Bu blog yazılarında da bu teknolojilerden faydalanılmıştır. 
 
-The following markdown cheatsheet is adapted from: https://guides.github.com/features/mastering-markdown/
+Karşılaştırma yapmak isterseniz.Bu yazının dosyasını yeni sekmede [açın](https://github.com/konerjonlar/blog-nextjs-tailwind/blob/master/data/blog/github-markdown-guide.mdx). Çıkan sayfa bu sitenin kodlarının bulunduğu site. O sayfadaki raw ve blame diye yanyana iki tuş olacak onlara tıkladığınız zaman bu yazının md formatlı halini göreceksiniz. Daha sonra bu sayfadayken F12 tuşuna basın ve bu yazının html kodlarını bulup 2 sayfayı karşılaştırın.
 
-# What is Markdown?
 
-Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
+Aşağıdaki markdown yazısı bu siteden uyarlanmıştır: https://guides.github.com/features/mastering-markdown/
 
-# Syntax guide
+# Markdown Nedir?
 
-Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com or in your own text files.
+Markdown, web'deki metne stil vermenin bir yoludur. Belgenin görüntüsünü siz kontrol edersiniz; kelimeleri kalın veya italik olarak biçimlendirmek, resim eklemek ve listeler oluşturmak Markdown ile yapabileceğimiz şeylerden sadece birkaçı. Çoğunlukla Markdown, "#" veya "*" gibi birkaç alfabetik olmayan karakterin girildiği normal metindir.
 
-## Headers
+# Sözdizimi kılavuzu
 
-```
-# This is a h1 tag
+GitHub.com'da veya kendi metin dosyalarınızda herhangi bir yerde kullanabileceğiniz Markdown sözdizimine kısaca değineceğiz.
 
-## This is a h2 tag
+## Başlıklar
 
-#### This is a h4 tag
-```
-
-# This is a h1 tag
-
-## This is a h2 tag
-
-#### This is a h4 tag
-
-## Emphasis
+Yazdığımız format en nihayetinde html koduna dönüyor
 
 ```
-_This text will be italic_
+# Bu h1 etiketi
 
-**This text will be bold**
+## Bu h2 etiketi
 
-_You **can** combine them_
+#### Bu h4 etiketi
 ```
 
-_This text will be italic_
+# Bu h1 etiketi
 
-**This text will be bold**
+## Bu h2 etiketi
 
-_You **can** combine them_
+#### Bu h4 etiketi
 
-## Lists
-
-### Unordered
+## Vurgu
 
 ```
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
+_Bu yazı italik_
+
+**Bu yazı kalın**
+
+_İç **içe** kullanabilirsin_
 ```
 
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
+_Bu yazı italik_
 
-### Ordered
+**Bu yazı kalın**
+
+_İç **içe** kullanabilirsin_
+
+## Listeler
+
+### Sırasız Listeler
 
 ```
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+- Eleman 1
+- Eleman 2
+  - Eleman 2a
+  - Eleman 2b
 ```
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+- Eleman 1
+- Eleman 2
+  - Eleman 2a
+  - Eleman 2b
 
-## Images
+### Sıralı Liste
+
+```
+1. Eleman 1
+1. Eleman 2
+1. Eleman 3
+   1. Eleman 3a
+   1. Eleman 3b
+```
+
+1. Eleman 1
+1. Eleman 2
+1. Eleman 3
+   1. Eleman 3a
+   1. Eleman 3b
+
+## Görüntüler
 
 ```
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-Format: ![Alt Text](url)
+Format biçimi: ![Yazı](Link)
 ```
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-## Links
+## Linklendirme
 
 ```
 http://github.com - automatic!
@@ -105,33 +109,33 @@ http://github.com - automatic!
 http://github.com - automatic!
 [GitHub](http://github.com)
 
-## Blockquotes
+## Alıntılama
 
 ```
-As Kanye West said:
+Kanya West'in dediği gibi:
 
-> We're living the future so
-> the present is our past.
+> Geleceği yaşıyoruz,
+> şimdiki zaman bizim geçmişimiz.
 ```
 
-As Kanye West said:
+Kanya West'in dediği gibi:
 
-> We're living the future so
-> the present is our past.
+> Geleceği yaşıyoruz,
+> şimdiki zaman bizim geçmişimiz.
 
-## Inline code
+## Satır içi kod
 
 ```
-I think you should use an
-`<addr>` element here instead.
+Html kodunu direk olarak
+`<addr>`biçiminde kullanabilinir.
 ```
 
-I think you should use an
-`<addr>` element here instead.
+Html kodunu direk olarak
+`<addr>`biçiminde kullanabilinir.
 
-## Syntax highlighting
+## Sözdizimi vurgulama
 
-Here’s an example of how you can use syntax highlighting with [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/):
+Sözdizimi vurgulamayı aşağıdakilerle nasıl kullanabileceğinize dair bir örnek: [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/):
 
 ````
 ```js:fancyAlert.js
@@ -143,7 +147,7 @@ function fancyAlert(arg) {
 ```
 ````
 
-And here's how it looks - nicely colored with styled code titles!
+Üstteki kodun görünümü bu şekilde - tarz kod başlıklarıyla güzelce renklendirilmiş!
 
 ```js:fancyAlert.js
 function fancyAlert(arg) {
@@ -153,46 +157,51 @@ function fancyAlert(arg) {
 }
 ```
 
-## Footnotes
+## Dipnotlar
 
 ```
-Here is a simple footnote[^1]. With some additional text after it.
+İşte basit bir dipnot[^1]. Ondan sonra bazı ek metinlerle.
 
-[^1]: My reference.
+[^1]: Referansım.
 ```
 
-Here is a simple footnote[^1]. With some additional text after it.
+İşte basit bir dipnot[^1]. Ondan sonra bazı ek metinlerle.
 
-[^1]: My reference.
+[^1]: Referansım.
 
-## Task Lists
-
-```
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-```
-
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-## Tables
-
-You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
+## Görev Listeleri
 
 ```
-| First Header                | Second Header                |
+- [x] gerekli liste sözdizimi (sırasız veya sıralı herhangi bir liste desteklenir)
+- [x] tamamlanmış öğe
+- [ ] tamamlanmamış öğe
+```
+
+- [x] gerekli liste sözdizimi (sırasız veya sıralı herhangi bir liste desteklenir)
+- [x] tamamlanmış öğe
+- [ ] tamamlanmamış öğe
+
+## Tablolar
+
+Bir sözcük listesi toplayarak ve bunları kısa çizgi `-` (ilk satır için) ile bölerek ve ardından her sütunu bir boru `|` ile ayırarak tablolar oluşturabilirsiniz:
+
+```
+| İlk Başlık                  | İkinci Başlık                |
 | --------------------------- | ---------------------------- |
-| Content from cell 1         | Content from cell 2          |
-| Content in the first column | Content in the second column |
+| Hücre 1                     | Hücre 2                      |
+| İçerik ilk sütunda          | İçerik ikinci sütunda        |
 ```
 
-| First Header                | Second Header                |
+| İlk Başlık                  | İkinci Başlık                |
 | --------------------------- | ---------------------------- |
-| Content from cell 1         | Content from cell 2          |
-| Content in the first column | Content in the second column |
+| Hücre 1                     | Hücre 2                      |
+| İçerik ilk sütunda          | İçerik ikinci sütunda        |
 
-## Strikethrough
+## Üstü Çizgili Yazı
 
-Any word wrapped with two tildes (like `~~this~~`) will appear ~~crossed out~~.
+İki tilda ile sarılmış herhangi bir kelime (bunun `~~gibi~~`) ~~üstü çizili~~ görünür.
+
+# Kaynak 
+
+Bazı konularda daha açıklayıcı bir [blog yazısı](https://ceaksan.com/tr/markdown-nedir) okuyabilirsiniz. 
+Mdx için [blog yazısı](https://onurdayibasi.com/tutorials/2020/2020-03-29-mdx-ve-dinamik-sayfalar/).
