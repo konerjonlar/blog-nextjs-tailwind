@@ -15,4 +15,4 @@ Popüler bilimi yakından takip etmeyi çok severim. Işığın doğası ve evre
 
 İktisat mezunuyum. Şu an Yönetim Bilişim Sistemleri'nde okuyorum. Dükkanımızda yaklaşık 2 sene berber olarak çalıştım. Bu süreçte yazılımla hobi olarak ilgilendim. Şimdilerde bu ilişki tam tersine döndü. İş hayatımı bilişim sektörüne yoğunlaştırarak web sitesi, sosyal pazarlama konularında freelance olarak çalışıyorum.
 
-Hobilerim yoga yapmak, paten sürmek, bilimsel araştırmalar yapmak... Yazılım alanında python ve javascript ekosistemleriyle ilgiliyim. Uzmanlaşmayı planladığım framework ise DJANGO <3. 
+Hobilerim yoga yapmak, paten sürmek, bilimsel araştırmalar yapmak... Yazılım alanında python ve javascript ekosistemleriyle ilgiliyim. Uzmanlaşmayı planladığım framework ise DJANGO. 
