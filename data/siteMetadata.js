@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'tr-tr',
   theme: 'system', // system, dark or light
   siteUrl: 'https://orhancansu.vercel.app/',
-  siteRepo: 'https://github.com/konerjonlar/myblog',
+  siteRepo: 'https://github.com/konerjonlar/blog-nextjs-tailwind',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
