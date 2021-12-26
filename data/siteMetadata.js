@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Hoşgeldiniz',
   author: 'Orhan Cansu',
   headerTitle: 'Zaman bir illüzyon...',
-  description: 'Next.js ve Tailwind.css ile geliştirilmiş blog sitesi',
+  description: 'Yazacağım teknik bloglar Feynman`ın gösterdiği yolu izleyecekler.',
   language: 'tr-tr',
   theme: 'system', // system, dark or light
   siteUrl: 'https://orhancansu.vercel.app/',
@@ -51,7 +51,7 @@ const siteMetadata = {
       // If the theme option above is set to 'custom`
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css
-      themeURL: '',
+      themeURL: 'https://giscus.app/themes/custom_example.css',
     },
     utterancesConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
