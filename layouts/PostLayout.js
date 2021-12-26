@@ -51,7 +51,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
             <dl className="pt-6 pb-10 xl:pt-11 xl:border-b xl:border-gray-200 xl:dark:border-gray-700">
-              <dt className="sr-only">Authors</dt>
+              <dt className="sr-only">Yazarlar</dt>
               <dd>
                 <ul className="flex justify-center space-x-8 xl:block sm:space-x-12 xl:space-x-0 xl:space-y-8">
                   {authorDetails.map((author) => (
@@ -66,7 +66,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         />
                       )}
                       <dl className="text-sm font-medium leading-5 whitespace-nowrap">
-                        <dt className="sr-only">Name</dt>
+                        <dt className="sr-only">İsim</dt>
                         <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
                         <dt className="sr-only">Twitter</dt>
                         <dd>
@@ -89,10 +89,10 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
-                  {'Discuss on Twitter'}
+                  {'Tweetle'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                <Link href={editUrl(fileName)}>{'Github Reposuna Git '}</Link>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
