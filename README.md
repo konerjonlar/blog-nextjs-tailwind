@@ -31,7 +31,7 @@ Giscus'ın kullanılabilmesi için 3 şart var:
   - Settings
     - Danger Zone
       - Change repository visibility
-        - [x]Make public
+        - [x] Make public
 
 2. Marketplace [Giscus](https://github.com/apps/giscus) indirilmiş olmalı. 
 
@@ -39,7 +39,7 @@ Giscus'ın kullanılabilmesi için 3 şart var:
   - Settings
     - Options
       - Features
-        - [x]Discussions
+        - [x] Discussions
 
 [Şartlar](https://giscus.app/#repository) sağlandıysa eğer .env.example diye bir klasörümüz var. (devamı gelecek)
 
