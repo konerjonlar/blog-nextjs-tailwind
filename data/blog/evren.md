@@ -1,6 +1,6 @@
 ---
 title: Nebula Tantana
-date : '27-12-2021',
+date : '27-12-2021'
 tags: [ 'evren','sorgular']
 draft : false
 summary : Evren konseptli düşüncelerimi paylaştığım serinin başlangıç yazısı
@@ -48,5 +48,5 @@ başladı simülasyon evreni diye ve insanlar fanatikleşmeye başladılar. Yahu
 bir yaratıcı olsa da simülasyon olmuyor müydü zaten? Niye şaşırıldı bu teoriye anlayamadım. Niye Laplace Şeytanı gerçek olmasın.
 Tip 3 bir medeniyetin ürünü olma ihtimalimiz değerlendirilmesi gereken
 ihtimal fakat aynı insanlar tip 3 yerine yaratıcı denildiğinde burun kıvırıyorlar.
-En aciz belirtisiz zincirleme soru tamlamasıyla yazımı sonlandırıorum. 
+En aciz belirtisiz zincirleme yakarış soru ile yazımı sonlandırıorum. 
 Niye, niye, niye ???
