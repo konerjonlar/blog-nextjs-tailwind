@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Bir Yok Var Olmuş',
+  title: 'BirYokmuşÇokVarOlmuş',
   author: 'Orhan Cansu',
   headerTitle: 'Zaman bir illüzyon...',
   description: 'Yazacağım teknik bloglar Feynman`ın gösterdiği yolu izleyecekler.',
